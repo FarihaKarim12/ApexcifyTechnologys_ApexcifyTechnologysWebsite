@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ApexcifyTechnologys — Engineering the Future</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-apex">Apex</span><span class="logo-cify">cify</span>
+        <span class="logo-tag">TECHNOLOGIES</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="cta-nav" onclick="scrollToSection('contact')">Get in Touch</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge fade-in-up" style="--delay:0s">
+        <i class="fa-solid fa-bolt"></i> Next-Gen Technology Partner
+      </div>
+      <h1 class="hero-title fade-in-up" style="--delay:.1s">
+        We Build <br/><span class="gradient-text">Digital Futures</span><br/> That Scale
+      </h1>
+      <p class="hero-sub fade-in-up" style="--delay:.2s">
+        Apexcify Technologys delivers professional, reliable, and innovative tech solutions that help businesses thrive in today’s fast-paced digital world.
+      </p>
+      <div class="hero-actions fade-in-up" style="--delay:.3s">
+        <button class="btn-primary" onclick="scrollToSection('projects')">
+          <span>View Projects</span> <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="btn-ghost" onclick="scrollToSection('about')">
+          Learn More
+        </button>
+      </div>
+      <div class="hero-stats fade-in-up" style="--delay:.4s">
+        <div class="stat"><span class="stat-num">120+</span><span class="stat-label">Projects Delivered</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Client Satisfaction</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Years of Excellence</span></div>
+      </div>
+    </div>
+    <div class="hero-visual fade-in-up" style="--delay:.3s">
+      <div class="tech-card">
+        <div class="tc-header"><span class="tc-dot red"></span><span class="tc-dot yellow"></span><span class="tc-dot green"></span></div>
+        <div class="tc-body">
+          <div class="tc-line"><span class="kw">const</span> <span class="var">apex</span> = <span class="str">"ApexcifyTechnologys"</span>;</div>
+          <div class="tc-line"><span class="kw">function</span> <span class="fn">buildFuture</span>() {</div>
+          <div class="tc-line indent"><span class="kw">return</span> {</div>
+          <div class="tc-line indent2"><span class="prop">innovation</span>: <span class="bool">true</span>,</div>
+          <div class="tc-line indent2"><span class="prop">quality</span>: <span class="num">100</span>,</div>
+          <div class="tc-line indent2"><span class="prop">vision</span>: <span class="str">"Limitless"</span></div>
+          <div class="tc-line indent">};</div>
+          <div class="tc-line">}</div>
+          <div class="tc-line blink-line"><span class="fn">buildFuture</span>(); <span class="cursor">|</span></div>
+        </div>
+      </div>
+      <div class="floating-badge fb-1"><i class="fa-brands fa-react"></i> React</div>
+      <div class="floating-badge fb-2"><i class="fa-solid fa-cloud"></i> Cloud</div>
+      <div class="floating-badge fb-3"><i class="fa-solid fa-shield-halved"></i> Secure</div>
+    </div>
+  </section>
+
+  <section id="about" class="about section-pad">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-wrap">
+            <div class="about-img-bg"></div>
+            <div class="about-img-inner">
+              <div class="about-icon-grid">
+                <div class="aig-item"><i class="fa-solid fa-code"></i></div>
+                <div class="aig-item"><i class="fa-solid fa-database"></i></div>
+                <div class="aig-item"><i class="fa-solid fa-mobile-screen"></i></div>
+                <div class="aig-item"><i class="fa-solid fa-cloud"></i></div>
+                <div class="aig-item center-item"><i class="fa-solid fa-microchip"></i></div>
+                <div class="aig-item"><i class="fa-solid fa-lock"></i></div>
+                <div class="aig-item"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="aig-item"><i class="fa-solid fa-brain"></i></div>
+                <div class="aig-item"><i class="fa-solid fa-globe"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="years-badge"><span>8</span><small>Years<br/>Excellence</small></div>
+        </div>
+        <div class="about-text reveal">
+          <div class="section-label">About Us</div>
+          <h2 class="section-title">Driving Innovation Through Technology</h2>
+          <p class="about-desc">Founded with a mission to empower businesses through technology, Apexcify Technologies delivers reliable, innovative, and professional digital solutions. We combine technical expertise with creative thinking to build scalable products that help organizations grow, adapt, and succeed in today’s fast-moving digital landscape.</p>
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon"><i class="fa-solid fa-rocket"></i></div>
+              <div>
+                <h4>Innovation First</h4>
+                <p>We embrace creativity and modern technology to build smart, efficient solutions that help businesses grow and stay ahead.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon"><i class="fa-solid fa-users"></i></div>
+              <div>
+                <h4>Client-Centric</h4>
+                <p>Our clients are our priority. We work closely with businesses to understand their goals and deliver solutions that match their vision.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <h4>Built to Last</h4>
+                <p>We create secure, scalable, and high-quality digital solutions designed for long-term performance and reliability.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn-primary" onclick="scrollToSection('contact')">
+            <span>Work With Us</span> <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">What We Do</div>
+        <h2 class="section-title centered">Transformative Services for the Modern Enterprise</h2>
+        <p class="section-sub">From concept to deployment, we deliver end-to-end digital solutions tailored to your unique challenges.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" style="--cd:.0s">
+          <div class="sc-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Web Development</h3>
+          <p>High-performance, scalable web applications built with modern frameworks and best practices for the future web.</p>
+          <div class="sc-tags"><span>React</span><span>Node.js</span><span>Next.js</span></div>
+          <div class="sc-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </div>
+        <div class="service-card reveal" style="--cd:.1s">
+          <div class="sc-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+          <h3>Graphic Design</h3>
+          <p>Creative and visually appealing designs crafted to communicate your brand message effectively. Utilizing modern tools and techniques to make your visuals stand out.</p>
+          <div class="sc-tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span></div>
+          <div class="sc-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </div>
+        <div class="service-card reveal" style="--cd:.2s">
+          <div class="sc-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>SaaS Development</h3>
+          <p>Scalable and secure software-as-a-service solutions designed to streamline business processes and enhance user engagement.</p>
+          <div class="sc-tags"><span>Node.js</span><span>React</span><span>AWS</span></div>
+          <div class="sc-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </div>
+        <div class="service-card reveal" style="--cd:.3s">
+          <div class="sc-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <h3>Mobile Development</h3>
+          <p>Native and cross-platform mobile apps that deliver seamless user experiences across all devices.</p>
+          <div class="sc-tags"><span>iOS</span><span>Android</span><span>Flutter</span></div>
+          <div class="sc-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </div>
+        <div class="service-card reveal" style="--cd:.4s">
+          <div class="sc-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+          <h3>Logo Design</h3>
+          <p>Distinctive and memorable logo designs that capture your brand identity and leave a lasting impression.</p>
+          <div class="sc-tags"><span>Illustrator</span><span>CorelDRAW</span><span>Figma</span></div>
+          <div class="sc-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </div>
+        <div class="service-card reveal" style="--cd:.5s">
+          <div class="sc-icon"><i class="fa-solid fa-pen-nib"></i></div>
+          <h3>Technical Writing</h3>
+          <p>Clear, concise, and engaging technical content that communicates complex concepts effectively to your target audience.</p>
+          <div class="sc-tags"><span>Markdown</span><span>Word</span><span>Content Management Systems</span></div>
+          <div class="sc-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Portfolio</div>
+        <h2 class="section-title centered">Projects That Define Excellence</h2>
+        <p class="section-sub">A curated selection of our most impactful work across industries and technologies.</p>
+      </div>
+      <div class="filter-tabs reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Web & SaaS</button>
+        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+
+        <div class="project-card reveal" data-category="web">
+            <div class="pc-img">
+                <img src="assets/portfolio.jpg" alt="Portfolio Website Screenshot" style="width:100%; border-radius: 10px;">
+            </div>
+            <div class="pc-info">
+                <h4>Portfolio Website</h4>
+                <p>Showcase personal projects, skills, and resume in a visually appealing website.</p>
+                <div class="pc-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Figma</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card reveal" data-category="mobile">
+        <div class="pc-img">
+            <img src="assets/Fitness Tracker App.jpg" alt="Fitness Tracker App" style="width:100%; border-radius:10px;">
+        </div>
+        <div class="pc-info">
+            <h4>Fitness Tracker App</h4>
+            <p>Track workouts, steps, and calories with progress visualization and reminders.</p>
+            <div class="pc-tech"><span>Java/Kotlin</span><span>Android Studio</span><span>Firebase</span></div>
+        </div>
+        </div>
+
+        <div class="project-card reveal" data-category="web">
+        <div class="pc-img">
+            <img src="assets/Online Appointment Scheduler.jpg" alt="Online Appointment Scheduler" style="width:100%; border-radius:10px;">
+        </div>
+        <div class="pc-info">
+            <h4>Online Appointment Scheduler</h4>
+            <p>Users book appointments with notifications, calendar integration, and login.</p>
+            <div class="pc-tech"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Express</span></div>
+        </div>
+        </div>
+
+        <div class="project-card reveal" data-category="mobile">
+        <div class="pc-img">
+            <img src="assets/Recipe App.jpg" alt="Recipe App" style="width:100%; border-radius:10px;">
+        </div>
+        <div class="pc-info">
+            <h4>Recipe App</h4>
+            <p>Browse, search, and save recipes with categories and favorites list.</p>
+            <div class="pc-tech"><span>Swift</span><span>Xcode</span><span>UIKit/SwiftUI</span><span>Core Data</span></div>
+        </div>
+        </div>
+
+        <div class="project-card reveal" data-category="design">
+        <div class="pc-img">
+            <img src="assets/Brand Identity Kit.jpg" alt="Brand Identity Kit" style="width:100%; border-radius:10px;">
+        </div>
+        <div class="pc-info">
+            <h4>Brand Identity Kit</h4>
+            <p>Create logos, typography, and color palettes for a fictional company.</p>
+            <div class="pc-tech"><span>Adobe Illustrator</span><span>Photoshop</span><span>Figma</span></div>
+        </div>
+        </div>
+
+        <div class="project-card reveal" data-category="design">
+        <div class="pc-img">
+            <img src="assets/Sports Team Logo Design.jpg" alt="Sports Team Logo Design" style="width:100%; border-radius:10px;">
+        </div>
+        <div class="pc-info">
+            <h4>Sports Team Logo Design</h4>
+            <p>Design creative logos for football, basketball, or e-sports teams.</p>
+            <div class="pc-tech"><span>Adobe Illustrator</span><span>Photoshop</span><span>Vector Design</span></div>
+        </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title centered">Let's Build Something <span class="gradient-text">Extraordinary</span></h2>
+        <p class="section-sub">Ready to transform your ideas into reality? We'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Start a Conversation</h3>
+          <p>Whether you have a project in mind or just want to explore possibilities — reach out. Our team typically responds within 24 hours.</p>
+          <div class="cinfo-items">
+            <div class="cinfo-item">
+              <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div><strong>Email Us</strong><span>hr.apexcifytechnologys@gmail.com</span></div>
+            </div>
+            <div class="cinfo-item">
+              <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+              <div><strong>Call Us</strong><span>+92 314 5871042</span></div>
+            </div>
+            <div class="cinfo-item">
+              <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div><strong>Availability</strong><span>Remote or in person (Pakistan)</span></div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn-primary full-width">
+              <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Your message has been sent! We'll get back to you soon.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo footer-logo">
+            <span class="logo-apex">Apex</span><span class="logo-cify">cify</span>
+            <span class="logo-tag">TECHNOLOGIES</span>
+          </div>
+          <p>Engineering digital futures that scale. Your vision, our precision.</p>
+          <div class="social-links mt16">
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Mobile Development</a></li>
+            <li><a href="#services">Graphic Design</a></li>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">SaaS Development</a></li>
+            <li><a href="#services">Logo Design</a></li>
+            <li><a href="#services">Technical Writing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="hr.apexcifytechnologys@gmail.com">hr.apexcifytechnologys@gmail.com</a></li>
+            <li><a href="tel:+92 314 5871042">+92 314 5871042</a></li>
+            <li><span>Pakistan</span></li>
+            <li><a href="#contact">Send a Message</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 ApexcifyTechnologys. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lb-nav lb-prev" id="lbPrev"><i class="fa-solid fa-chevron-left"></i></button>
+    <div class="lb-content" id="lbContent"></div>
+    <button class="lb-nav lb-next" id="lbNext"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="lb-counter" id="lbCounter">1 / 8</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
